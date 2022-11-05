@@ -355,6 +355,7 @@ class Tree {
         if (root.left !== null) {
             this.prettyPrint(root.left, `${prefix}${isLeft ? '    ' : '│   '}`, true);
         }
+        
     }
 };
 
@@ -377,4 +378,4 @@ function getMin(root) {
 /******/ var __webpack_exports__ = (__webpack_exec__(138));
 /******/ }
 ]);
-//# sourceMappingURL=bundle-1a6e082458e8f2ce4c32.js.map
+//# sourceMappingURL=bundle-f400bd4257f3e6555f02.js.map
